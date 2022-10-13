@@ -1,0 +1,260 @@
+body{
+    font-family: Montserrat, sans-serif;
+}
+
+nav{
+    margin-top: -0.5486968449931413vw;
+    margin-left: -0.5486968449931413vw;
+    margin-right: -0.5486968449931413vw;
+}
+
+#logo{
+    display: inline;
+    margin-top: 1.989026063100137vw;
+    margin-left: 3.429355281207133vw;
+    width: 8.847736625514404vw;
+    height: 2.05761316872428vw;
+}
+
+#menu {
+    display: inline-block;
+    margin-top: 0;
+    vertical-align: middle;
+}
+
+#menu li {
+    display: inline-block;
+    margin-left: 1.5089163237311385vw;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.82vw;
+}
+
+a{
+    color: black;
+}
+a:link{
+    text-decoration: none;
+}
+
+.nav_btn{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    display: inline;
+    width: 14.197530864197532vw;
+    height: 3.223593964334705vw;
+    margin: 1.1659807956104253vw 3.429355281207133vw 0 40vw;
+    border-radius: 0.6858710562414266vw;
+    background-color:rgba(1, 182, 213, 0.99);
+    border-color: rgba(1, 182, 213, 0.99) ;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.container{
+    margin-left: 2.880658436213992vw;
+    width: 60vw;
+    height: 46vw;
+    margin-top: 0.5486968449931413vw;
+    background-color: #C4C4C4AD;
+    z-index: 1;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding-left: 7.750342935528121vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.753086419753085vw;
+    line-height: 24.074074074074073vw;
+    align-items: center;
+    letter-spacing: -0.05em;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+#first_section_header{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -2.7434842249657065vw;
+    padding-left: 7.750342935528121vw;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.7722908093278464vw;
+    line-height: 3.7722908093278464vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#first_section_description{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1em;
+    padding-left: 7.750342935528121vw;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.646090534979424vw;
+    text-transform: lowercase;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.img_lay{
+    position: absolute;
+    width: 42.79835390946502vw;
+    height: 28.532235939643346vw;
+    left: 52.53772290809328vw;
+    top: 13.991769547325102vw;
+}
+
+#main_img{
+    width: 42.79835390946502vw;
+    height: 28.532235939643346vw;
+}
+
+#first_cat_section, #second_cat_section{
+    display: flex;
+    margin-left: 2.880658436213992vw;
+    margin-top:  7.613168724279835vw;
+}
+
+#section_second_img, #third_section_img {
+    width: 45.267489711934154vw;
+    height: 29.9039780521262vw;
+}
+
+#first_cat_section_description{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 8.984910836762689vw;
+}
+
+#first_cat_section_description h2, #second_cat_section_description h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.292181069958848vw;
+    line-height: 2.880658436213992vw;
+    color: #079FD0;
+}
+
+#first_cat_section_description p, #second_cat_section_description p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.646090534979424vw;
+    line-height: 2.4691358024691357vw;
+    color: #000000;
+}
+
+#first_cat_section_description button, #second_cat_section_description button, #additional_skills_section button {
+    font-style: normal;
+    font-weight: 500;
+    font-size:  1.2345679012345678vw;
+    line-height: 2.400548696844993vw;
+    text-transform: uppercase;
+    color: #079FD0;
+    background-color: white;
+    border: none;
+    margin-top: 7.064471879286694vw;
+}
+.learn_more::after{
+    content: "";
+    width: 0.7242798353909465vw;
+    height: 0.7270233196159122vw;
+    display: inline-block;
+    border: 2px solid #079FD0;
+    box-sizing: border-box;
+    transform: matrix(-0.69, 0.65, -0.8, -0.69, 0, 0);
+    border-bottom: none;
+    border-right: none;
+
+}
+
+#second_cat_section_description{
+    margin-left: 11.11111111111111vw;
+}
+
+#third_section_img{
+    margin-left: 9.327846364883403vw;
+}
+
+#additional_skills_section{
+    margin-left: 2.880658436213992vw;
+    margin-top:  7.613168724279835vw;
+}
+
+#additional_skills_section h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.292181069958848vw;
+    line-height: 3.429355281207133vw;
+    text-align: center;
+    color: #079FD0;
+}
+
+#add_sk_container{
+    display: flex;
+}
+
+.add_sk_item{
+    margin-right: 5.0068587105624145vw;
+    width: 26.06310013717421vw;
+    height: 40.46639231824417vw;
+}
+.add_sk_item img{
+    width: 26.06310013717421vw;
+    height: 19.135802469135804vw;
+}
+
+.add_sk_item h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.05761316872428vw;
+    line-height: 2.4691358024691357vw;
+    color: #079FD0;
+}
+
+.add_sk_item p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.3717421124828533vw;
+    line-height: 2.05761316872428vw;
+    color: #000000;
+}
+
+#additional_skills_section button{
+    margin-top: 2.05761316872428vw;
+}
+
+footer{
+    display: flex;
+    background-color: #C4C4C433 ;
+    margin-top: 4.595336076817558vw;
+}
+
+footer div{
+    padding-top: 4.595336076817558vw;
+    margin-right: 9.602194787379972vw;
+}
+
+footer div li{
+    list-style-type: none;
+    line-height: 2em;
+}
+#footer_logo{
+    margin-left: 3.429355281207133vw;
+    width: 8.847736625514404vw;
+    height: 2.05761316872428vw;
+}
+
+#Rights{
+    margin-right: 0;
+}
+
+#Rights p{
+    font-weight: bold;
+}
+
+button{
+    cursor: pointer;
+}
